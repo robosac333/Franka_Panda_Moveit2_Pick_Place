@@ -28,7 +28,8 @@ ros2 pkg create --build-type ament_cmake my_package
 3. Build and source the workspace again.
 
 ## Launch Moveit Configuration
-Load up your Pandas robot in Rviz2 by running
+
+Git Clone the repo inside the src folder of the workspace and Load up your Pandas robot in Rviz2 by running
 
 ```sh
 ros2 launch sjd3333_configuration demo.launch.py
