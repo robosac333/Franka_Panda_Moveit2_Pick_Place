@@ -10,20 +10,20 @@ The pipeline is setup in ROS2 Humble.
 
 1. Create a ROS Workspace, source and build it.
 2. Create a package using 
-'''sh
+```sh
 ros2 pkg create --build-type ament_cmake my_package
-'''
+```
 3. Build and source the workspace again.
 
 ## Launch Moveit Configuration
-'''sh
+```sh
 ros2 launch sjd3333_configuration demo.launch.py
-'''
+```
 
 ## Run the Trajectory Execuiton Script
-'''sh
+```sh
 ros2 run package_sjd3333 package_sjd3333
-'''
+```
 
 Attached is the video link for the pick and place implementation [here](https://drive.google.com/file/d/1q3rQrPAflAEGoBmVigwEQKYOsfAvbVuS/view?usp=sharing).
 
