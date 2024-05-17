@@ -1,10 +1,22 @@
 # Franka_Panda_Moveit2_Pick_Place
 
-Trajectory Execution without simple C++ Script without using Moveit Task Constructor 
+Trajectory Execution is with simple C++ Script without using Moveit Task Constructor 
 
-Developed a C++ pipeline to generate desired trajectories one after on the Panda Robot
+This is a C++ pipeline to generate desired trajectories one after other on the Panda Robot
 
-The pipeline is setup in ROS2 Humble. 
+First, we will install ROS2 Humble and other dependencies in the Docker container
+
+```sh
+sudo apt-get update
+sudo apt install gazebo
+sudo apt install ros-humble-moveit
+sudo apt-get install ros-humble*controller*
+sudo apt-get install ros-humble*joint*state*
+source /opt/ros/humble/setup.bash
+```
+
+Now you are ready to follow the next steps as given on MoveIt tutorials [here](https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html#install-ros-2-and-colcon) till the ‘Setup Your Colcon Workspace’ section to install
+moveit. 
 
 ## Create package
 
@@ -16,6 +28,8 @@ ros2 pkg create --build-type ament_cmake my_package
 3. Build and source the workspace again.
 
 ## Launch Moveit Configuration
+Load up your Pandas robot in Rviz2 by running
+
 ```sh
 ros2 launch sjd3333_configuration demo.launch.py
 ```
