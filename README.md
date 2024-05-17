@@ -27,4 +27,4 @@ ros2 run package_sjd3333 package_sjd3333
 
 Attached is the video link for the pick and place implementation [here](https://drive.google.com/file/d/1q3rQrPAflAEGoBmVigwEQKYOsfAvbVuS/view?usp=sharing).
 
-Also find attached is the video to use Moveit Setup Assistant video to build the configuration files from scratch [here](https://drive.google.com/file/d/1SjO-hhGwn1HkOcPxir70J3k3s9VJ5yLq/view?usp=sharing).
+Also find attached the video to use Moveit Setup Assistant to build the Moveit configuration files from scratch [here](https://drive.google.com/file/d/1SjO-hhGwn1HkOcPxir70J3k3s9VJ5yLq/view?usp=sharing).
