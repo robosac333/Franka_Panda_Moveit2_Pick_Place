@@ -29,11 +29,13 @@ ros2 pkg create --build-type ament_cmake my_package
 
 ## Launch Moveit Configuration
 
-Git Clone the repo inside the src folder of the workspace and Load up your Pandas robot in Rviz2 by running
+1. Git Clone the repo inside the src folder of the workspace and Load up your Pandas robot in Rviz2 by running
 
 ```sh
 ros2 launch sjd3333_configuration demo.launch.py
 ```
+2. Launch the Robot Model by adding the Robot_Model plugin and subscribe to the /robot_description Topic inside Rviz to make the robot visible.
+3. Now add the Motion Planning Moveit Plugin inside Rviz.
 
 ## Run the Trajectory Execuiton Script
 ```sh
