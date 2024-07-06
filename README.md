@@ -1,5 +1,7 @@
 # Franka_Panda_Moveit2_Pick_Place
 
+![Franka Series Task Execution](out.gif)
+
 Trajectory Execution is with simple C++ Script without using Moveit Task Constructor 
 
 This is a C++ pipeline to generate desired trajectories one after other on the Panda Robot
